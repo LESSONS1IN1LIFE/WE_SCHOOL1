@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Record Attendance - WE_SCHOOL</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>WE_SCHOOL</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="attendance.html">Attendance</a>
+            <a href="schedule.html">Schedule</a>
+            <a href="teachers.html">Teachers</a>
+            <a href="classes.html">Classes</a>
+            <a href="supervision.html">Supervision</a>
+        </nav>
+    </header>
+    <main>
+        <form class="attendance-form">
+            <h2>Record Attendance</h2>
+            <input type="text" placeholder="Student Name" required>
+            <input type="date" required>
+            <select required>
+                <option value="Present">Present</option>
+                <option value="Absent">Absent</option>
+            </select>
+            <button type="submit">Record Attendance</button>
+        </form>
+        <section class="records">
+            <h2>Attendance Records</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Student Name</th>
+                        <th>Class Date</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>John Doe</td>
+                        <td>2023-09-01</td>
+                        <td>Present</td>
+                    </tr>
+                    <!-- Add more records as needed -->
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 WE_SCHOOL. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
